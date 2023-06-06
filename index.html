@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap" rel="stylesheet">
+    <title>Weather App🌦️</title>
+</head>
+
+<body>
+    <!-- <h1>whats the weather?</h1> -->
+    <!-- <section id="title">
+        <h1>whats The weather?</h1>
+    </section> -->
+
+
+
+    <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+        <source src="/pexels-dan-cristian-pădureț-4828773-1920x1080-50fps.mp4">
+    </video>
+
+    <section class="main">
+        <div id="nav">
+            <input id="search" type="text" placeholder="Enter city...">
+            <button id="btn-submit" type="submit"><img src="/images/search.png" alt=""></button>
+        </div>
+
+        <div class="container">
+            <div>
+                <span id="temp">20<span> &#8451;</span></span><br>
+                <span id="city">DELHI <i class="fa-solid fa-location-dot"></i></span>
+            </div>
+            <div id="wind-block">
+                <span id="wind">16 <span class="units">km/hr</span>
+                </span><br>
+                <img src="/images/wind.png" alt="">
+            </div>
+            <div id="humidity-block">
+                <span id="humidity">39 <span class="units">gm <sup>-3</sup></span></span><br>
+                <img src="/images/humidity.png" alt="">
+            </div>
+            <div id="weather-icon-container">
+                <img id="weather-icon" src="/images/rain.png" alt="">
+            </div>
+
+        </div>
+
+
+        <p>@weatherapp🌦️</p>
+    </section>
+
+    <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/be4e9fa2f8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
